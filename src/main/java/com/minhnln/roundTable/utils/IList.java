@@ -1,4 +1,4 @@
-package com.minhnln.roundTable.dataStructure;
+package com.minhnln.roundTable.utils;
 
 public interface IList<E> {
     int size();
@@ -13,7 +13,6 @@ public interface IList<E> {
     void addLast(E e);
 
     E removeFirst();
-    E removeLast();
 
     // test-supporting methods
     E[] toArray();
