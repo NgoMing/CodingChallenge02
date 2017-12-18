@@ -3,18 +3,19 @@ package com.minhnln.roundTable.model;
 import java.lang.StringBuilder;
 import com.minhnln.roundTable.utils.CircularlyList;
 
-public class roundTable {
+public class RoundTable {
     final private String REPORT_WINNER = "The winner has the id of ";
     final private String REPORT_LOSER = "The id(s) of child(ren) going out is(are) ";
     final private String REPORT_DELIMITER = ", ";
 
     private int numOfChildren;              // number of children - n
     private int jumpStep;                   // number of children will be counted in each turn - k
-    private CircularlyList<Integer> table;  // table for children to play
+    private CircularlyList<Integer> table =
+            new CircularlyList<>();         // table for children to play
     private StringBuilder report = new StringBuilder();
 
     // constructors
-    public roundTable(int numOfChildren, int jumpStep) {
+    public RoundTable(int numOfChildren, int jumpStep) {
         this.numOfChildren = numOfChildren;
         this.jumpStep = jumpStep;
 
@@ -28,8 +29,9 @@ public class roundTable {
 
     // play methods
     public void playEachTurn() {
-        table.rotate(jumpStep);
+        table.rotate(jumpStep - 1);
         int idChildOut = table.getFirst();
+        table.removeFirst();
         report.append(idChildOut);
     }
 
