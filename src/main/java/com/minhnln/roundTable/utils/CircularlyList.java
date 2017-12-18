@@ -11,6 +11,8 @@ public class CircularlyList<E> implements IList<E>, IRotatable {
     }
 
     public CircularlyList(E[] array) {
+        for (int i = 0; i < array.length; i++)
+            addLast(array[i]);
     }
 
     @Override
