@@ -19,11 +19,10 @@ public class RoundTable {
         this.numOfChildren = numOfChildren;
         this.jumpStep = jumpStep;
 
-        int id = 1; // id of each child
 
         // create ids for children playing at the table
         for (int i = 0; i < numOfChildren; i++) {
-            table.addLast(id++);
+            table.addLast(i + 1);
         }
     }
 

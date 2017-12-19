@@ -89,6 +89,13 @@ public class CircularlyListTest {
     }
 
     @Test
+    public void removeFirstEmptyList() {
+        CircularlyList<Integer> list = new CircularlyList<>();
+
+        assertEquals(null, list.removeFirst());
+    }
+
+    @Test
     @Parameters(method = "getCircularlyList")
     public void toArray(Integer[] array) throws Exception {
         CircularlyList<Integer> list = new CircularlyList<>(array);
@@ -97,14 +104,34 @@ public class CircularlyListTest {
     }
 
     @Test
+    public void toArrayEmptyList() {
+        CircularlyList<Integer> list = new CircularlyList<>();
+
+        assertArrayEquals(null, list.toArray());
+    }
+
+    @Test
     @Parameters(method = "getRotateArray")
     public void rotate(Integer[] array) throws Exception {
         Integer[] initArray = {0, 1, 2, 3, 4};
         CircularlyList<Integer> list = new CircularlyList<>(initArray);
-        
+
         // utilise the first element of array as numOfStep param
-        list.rotate(array[0]);
+        list.rotate(array[0] + array.length);
         assertArrayEquals(array, list.toArray());
     }
 
+    @Test
+    public void rotateEmptyList() {
+        CircularlyList<Integer> list = new CircularlyList<>();
+        list.rotate(5);
+
+        assertTrue(list.isEmpty());
+    }
+
+    @Test (expected = IllegalArgumentException.class)
+    public void rotateNegativeParam() {
+        CircularlyList<Integer> list = new CircularlyList<>(new Integer[]{1, 2, 3});
+        list.rotate(-2);
+    }
 }
