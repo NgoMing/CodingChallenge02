@@ -98,4 +98,18 @@ public class CircularlyList<E> implements IList<E>, IRotatable {
         for (int i = 0; i < numOfStep; i++)
             this.tail = this.tail.getNext();
     }
+
+    @Override
+    public String toString() {
+        StringBuilder report = new StringBuilder();
+        if (isEmpty())
+            return "";
+
+        Node<E> tempNode = tail.getNext();
+        for (int i = 0; i < size; i++, tempNode = tempNode.getNext()) {
+            report.append(tempNode.getElement() + " ");
+        }
+
+        return report.toString();
+    }
 }
