@@ -48,7 +48,7 @@ public class RoundTable {
         table.rotate(jumpStep - 1);
         int idChildOut = table.getFirst();
         table.removeFirst();
-        report.append(idChildOut);
+        report.append(idChildOut + " ");
         childrenOut.addLast(idChildOut);
     }
 
