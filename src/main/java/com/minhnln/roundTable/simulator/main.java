@@ -20,45 +20,47 @@ public class main {
     }
 
     public static boolean receiveNumberOfChildrenParam() throws IOException {
-        boolean result = true;
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         System.out.println("Enter the number of children (positive number): ");
+        String readString = br.readLine();
         try {
-            numOfChildren = Integer.parseInt(br.readLine());
+            numOfChildren = Integer.parseInt(readString);
         }
         catch (NumberFormatException nfe) {
-            System.err.println("Invalid Format!");
-            result = false;
+            System.out.println("Invalid Format! " + readString + " is not a number\n");
+            return false;
         }
 
         if (numOfChildren <= 0) {
-            System.err.println("Number of children (" + numOfChildren + ") should be positive");
-            result = false;
+            System.out.println("Number of children (" + numOfChildren + ") should be positive\n");
+            return false;
         }
 
-        return result;
+        return true;
     }
     public static boolean receiveJumpStepParam() throws IOException {
         boolean result = true;
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        System.out.println("Enter the jump step (positive number): ");
+        System.out.println("Enter the jump step (non-negative number): ");
+        String readString = br.readLine();
         try {
-            jumStep = Integer.parseInt(br.readLine());
+            jumStep = Integer.parseInt(readString);
         }
         catch (NumberFormatException nfe) {
-            System.err.println("Invalid Format!");
+            System.out.println("Invalid Format! " + readString + " is not a number\n");
             result = false;
         }
 
         if (jumStep < 0) {
-            System.err.println("Jump step (" + jumStep + ") should be positive");
+            System.out.println("Jump step (" + jumStep + ") should be non-negative\n");
             result = false;
         }
 
         return result;
     }
+
+
 }
