@@ -27,12 +27,13 @@ public class main {
         System.out.println("Enter the number of children (positive number): ");
         try {
             numOfChildren = Integer.parseInt(br.readLine());
-            if (numOfChildren <= 0)
-                throw new IllegalArgumentException();
-        } catch (NumberFormatException nfe) {
+        }
+        catch (NumberFormatException nfe) {
             System.err.println("Invalid Format!");
             result = false;
-        } catch (IllegalArgumentException iae) {
+        }
+
+        if (numOfChildren <= 0) {
             System.err.println("Number of children (" + numOfChildren + ") should be positive");
             result = false;
         }
@@ -47,14 +48,13 @@ public class main {
         System.out.println("Enter the jump step (positive number): ");
         try {
             jumStep = Integer.parseInt(br.readLine());
-            if (jumStep <= 0)
-                throw new IllegalArgumentException();
         }
         catch (NumberFormatException nfe) {
             System.err.println("Invalid Format!");
             result = false;
         }
-        catch (IllegalArgumentException iae) {
+
+        if (jumStep < 0) {
             System.err.println("Jump step (" + jumStep + ") should be positive");
             result = false;
         }
