@@ -1,0 +1,12 @@
+-Enter the jump step (non-negative number): 
+$Invalid Format! abc is not a number
+
+2Enter the number of children (positive number): 
+$Invalid Format! abc is not a number
+
+2Enter the number of children (positive number): 
+,Number of children (-10) should be positive
+
+-Enter the jump step (non-negative number): 
+'Jump step (-10) should be non-negative
+

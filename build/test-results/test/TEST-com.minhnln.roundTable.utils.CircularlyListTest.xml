@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.minhnln.roundTable.utils.CircularlyListTest" tests="24" skipped="0" failures="0" errors="0" timestamp="2017-12-22T14:04:01" hostname="laptop88-PC" time="0.008">
+  <properties/>
+  <testcase name="rotateNegativeParam" classname="com.minhnln.roundTable.utils.CircularlyListTest" time="0.001"/>
+  <testcase name="addFirst(-1) [0]" classname="com.minhnln.roundTable.utils.CircularlyListTest" time="0.0"/>
+  <testcase name="addFirst(1, 2, 3) [1]" classname="com.minhnln.roundTable.utils.CircularlyListTest" time="0.0"/>
+  <testcase name="toArray(-1) [0]" classname="com.minhnln.roundTable.utils.CircularlyListTest" time="0.0"/>
+  <testcase name="toArray(1, 2, 3) [1]" classname="com.minhnln.roundTable.utils.CircularlyListTest" time="0.0"/>
+  <testcase name="addLast(-1) [0]" classname="com.minhnln.roundTable.utils.CircularlyListTest" time="0.0"/>
+  <testcase name="addLast(1, 2, 3) [1]" classname="com.minhnln.roundTable.utils.CircularlyListTest" time="0.0"/>
+  <testcase name="rotate(0, 1, 2, 3, 4) [0]" classname="com.minhnln.roundTable.utils.CircularlyListTest" time="0.0"/>
+  <testcase name="rotate(1, 2, 3, 4, 0) [1]" classname="com.minhnln.roundTable.utils.CircularlyListTest" time="0.0"/>
+  <testcase name="rotate(2, 3, 4, 0, 1) [2]" classname="com.minhnln.roundTable.utils.CircularlyListTest" time="0.0"/>
+  <testcase name="rotate(3, 4, 0, 1, 2) [3]" classname="com.minhnln.roundTable.utils.CircularlyListTest" time="0.0"/>
+  <testcase name="rotate(4, 0, 1, 2, 3) [4]" classname="com.minhnln.roundTable.utils.CircularlyListTest" time="0.0"/>
+  <testcase name="rotateEmptyList" classname="com.minhnln.roundTable.utils.CircularlyListTest" time="0.0"/>
+  <testcase name="removeFirst(-1) [0]" classname="com.minhnln.roundTable.utils.CircularlyListTest" time="0.0"/>
+  <testcase name="removeFirst(1, 2, 3) [1]" classname="com.minhnln.roundTable.utils.CircularlyListTest" time="0.0"/>
+  <testcase name="getLast(-1) [0]" classname="com.minhnln.roundTable.utils.CircularlyListTest" time="0.0"/>
+  <testcase name="getLast(1, 2, 3) [1]" classname="com.minhnln.roundTable.utils.CircularlyListTest" time="0.0"/>
+  <testcase name="size(-1) [0]" classname="com.minhnln.roundTable.utils.CircularlyListTest" time="0.0"/>
+  <testcase name="size(1, 2, 3) [1]" classname="com.minhnln.roundTable.utils.CircularlyListTest" time="0.0"/>
+  <testcase name="removeFirstEmptyList" classname="com.minhnln.roundTable.utils.CircularlyListTest" time="0.0"/>
+  <testcase name="toArrayEmptyList" classname="com.minhnln.roundTable.utils.CircularlyListTest" time="0.0"/>
+  <testcase name="getFirst(-1) [0]" classname="com.minhnln.roundTable.utils.CircularlyListTest" time="0.0"/>
+  <testcase name="getFirst(1, 2, 3) [1]" classname="com.minhnln.roundTable.utils.CircularlyListTest" time="0.0"/>
+  <testcase name="isEmpty" classname="com.minhnln.roundTable.utils.CircularlyListTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
