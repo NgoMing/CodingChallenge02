@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.minhnln.roundTable.utils.NodeTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2017-12-22T14:04:01" hostname="laptop88-PC" time="0.001">
+<testsuite name="com.minhnln.roundTable.utils.NodeTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2017-12-22T14:29:56" hostname="laptop88-PC" time="0.001">
   <properties/>
   <testcase name="constructorWithParameters(null, null) [0]" classname="com.minhnln.roundTable.utils.NodeTest" time="0.0"/>
   <testcase name="constructorWithParameters(10, null) [1]" classname="com.minhnln.roundTable.utils.NodeTest" time="0.0"/>

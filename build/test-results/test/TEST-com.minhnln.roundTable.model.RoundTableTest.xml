@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.minhnln.roundTable.model.RoundTableTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2017-12-22T14:03:58" hostname="laptop88-PC" time="2.961">
+<testsuite name="com.minhnln.roundTable.model.RoundTableTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2017-12-22T14:29:54" hostname="laptop88-PC" time="2.935">
   <properties/>
-  <testcase name="playEachTurn(5, 3, [3], [3, 1], [3, 1, 5], [3, 1, 5, 2]) [0]" classname="com.minhnln.roundTable.model.RoundTableTest" time="0.014"/>
+  <testcase name="playEachTurn(5, 3, [3], [3, 1], [3, 1, 5], [3, 1, 5, 2]) [0]" classname="com.minhnln.roundTable.model.RoundTableTest" time="0.003"/>
   <testcase name="constructor(5, 1) [0]" classname="com.minhnln.roundTable.model.RoundTableTest" time="0.0"/>
   <testcase name="constructor(14, 4) [1]" classname="com.minhnln.roundTable.model.RoundTableTest" time="0.0"/>
-  <testcase name="playPerformanceCases(500000, 10, 20687) [0]" classname="com.minhnln.roundTable.model.RoundTableTest" time="0.32"/>
-  <testcase name="playPerformanceCases(1000000, 123, 137456) [1]" classname="com.minhnln.roundTable.model.RoundTableTest" time="2.625"/>
+  <testcase name="playPerformanceCases(500000, 10, 20687) [0]" classname="com.minhnln.roundTable.model.RoundTableTest" time="0.324"/>
+  <testcase name="playPerformanceCases(1000000, 123, 137456) [1]" classname="com.minhnln.roundTable.model.RoundTableTest" time="2.605"/>
   <testcase name="playNormalCases(5, 1, [1, 2, 3, 4], 5) [0]" classname="com.minhnln.roundTable.model.RoundTableTest" time="0.0"/>
   <testcase name="playNormalCases(7, 3, [3, 6, 2, 7, 5, 1], 4) [1]" classname="com.minhnln.roundTable.model.RoundTableTest" time="0.0"/>
-  <testcase name="playNormalCases(4, 11, [3, 1, 2], 4) [2]" classname="com.minhnln.roundTable.model.RoundTableTest" time="0.001"/>
+  <testcase name="playNormalCases(4, 11, [3, 1, 2], 4) [2]" classname="com.minhnln.roundTable.model.RoundTableTest" time="0.0"/>
   <testcase name="playNormalCases(14, 4, [4, 8, 12, 2, 7, 13, 5, 11, 6, 1, 14, 3, 10], 9) [3]" classname="com.minhnln.roundTable.model.RoundTableTest" time="0.0"/>
   <testcase name="playNormalCases(8, 3, [3, 6, 1, 5, 2, 8, 4], 7) [4]" classname="com.minhnln.roundTable.model.RoundTableTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

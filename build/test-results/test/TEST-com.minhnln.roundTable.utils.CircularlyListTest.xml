@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.minhnln.roundTable.utils.CircularlyListTest" tests="24" skipped="0" failures="0" errors="0" timestamp="2017-12-22T14:04:01" hostname="laptop88-PC" time="0.008">
+<testsuite name="com.minhnln.roundTable.utils.CircularlyListTest" tests="24" skipped="0" failures="0" errors="0" timestamp="2017-12-22T14:29:56" hostname="laptop88-PC" time="0.005">
   <properties/>
-  <testcase name="rotateNegativeParam" classname="com.minhnln.roundTable.utils.CircularlyListTest" time="0.001"/>
-  <testcase name="addFirst(-1) [0]" classname="com.minhnln.roundTable.utils.CircularlyListTest" time="0.0"/>
+  <testcase name="rotateNegativeParam" classname="com.minhnln.roundTable.utils.CircularlyListTest" time="0.0"/>
+  <testcase name="addFirst(-1) [0]" classname="com.minhnln.roundTable.utils.CircularlyListTest" time="0.001"/>
   <testcase name="addFirst(1, 2, 3) [1]" classname="com.minhnln.roundTable.utils.CircularlyListTest" time="0.0"/>
   <testcase name="toArray(-1) [0]" classname="com.minhnln.roundTable.utils.CircularlyListTest" time="0.0"/>
   <testcase name="toArray(1, 2, 3) [1]" classname="com.minhnln.roundTable.utils.CircularlyListTest" time="0.0"/>
